@@ -1,3 +1,44 @@
 .App {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+h1, h3 {
   text-align: center;
+}
+
+.genres {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.genres span {
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+.genres span:hover, .span-active{
+  background-color: black;
+  color: white;
+}
+
+ol {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  gap: 5px;
+}
+
+li {
+  border: 1px solid black;
+  padding: 4px;
+  min-width: 100%;
 }
